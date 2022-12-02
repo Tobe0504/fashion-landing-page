@@ -36,6 +36,10 @@ nav {
   gap: 65px;
   padding: 0 5%;
   height: 10vh;
+  position: sticky;
+  top: 0;
+  background: #ffffff;
+  z-index: 10;
 }
 
 nav > div {
@@ -186,4 +190,167 @@ nav > div:last-child > button:hover {
 .heroSection > div:nth-child(2) > img {
   width: 100%;
   height: 100%;
+}
+
+.brandsSection {
+  padding: 3rem 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ebd96b;
+  margin: 3rem 0;
+}
+
+.brandsSection > img {
+  background: #ebd96b;
+}
+
+.newArrivalsSection {
+  padding: 0 5%;
+}
+
+.newArrivalsSection > h2 {
+  font-family: Poppins;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 50px;
+  letter-spacing: 0.06em;
+  color: #000000;
+}
+
+.newArrivalsSection > h2 > span {
+  position: relative;
+  z-index: 1;
+}
+
+.newArrivalsSection > h2 > span > img {
+  position: absolute;
+  right: -5px;
+  bottom: 0;
+  z-index: -1;
+}
+
+.productShowcaseSection {
+  /* border: 3px solid blue; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 4rem 0;
+}
+
+.productShowcaseSection > div > div:nth-child(1) {
+  height: 504px;
+  width: 384px;
+}
+
+.productShowcaseSection > div > div > img {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: block;
+}
+
+.productShowcaseSection > div > div:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lowerSection {
+  margin: 1rem 0;
+}
+
+.lowerSection > div > p:nth-child(1) {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 50px;
+  letter-spacing: -0.04em;
+  color: #191919;
+  margin: 0;
+}
+
+.lowerSection > div > p:nth-child(2) {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 50px;
+  letter-spacing: -0.04em;
+  color: #7f7f7f;
+  margin: 0;
+}
+
+.lowerSection > div:nth-child(2) > img {
+  cursor: pointer;
+}
+
+.payDaySaleSection {
+  border: 3px solid red;
+  display: flex;
+  align-items: center;
+}
+
+.payDaySaleSection > div {
+  width: 50%;
+  height: 100%;
+}
+
+.payDaySaleSection > div:nth-child(1) > img {
+  width: 100%;
+}
+
+.payDaySaleSection > div:nth-child(2) {
+  background: linear-gradient(
+    1.32deg,
+    #e0c340 0.13%,
+    #dfc23e 3.97%,
+    #e1c441 7.2%,
+    #e3c743 10.13%,
+    #e4c542 12.98%,
+    #e6c744 15.99%,
+    #e7c845 19.52%,
+    #e5c643 23.96%,
+    #e6c945 30.43%,
+    #e3c743 36.49%,
+    #e9ca48 42.49%,
+    #edce49 49.35%,
+    #f0d44c 55.42%,
+    #f4d84f 61.43%,
+    #f6da52 65.74%,
+    #f7db53 72.23%,
+    #f9dd55 77.43%,
+    #f9df56 83.84%,
+    #fae157 91.52%,
+    #f9df56 97.87%
+  );
+}
+
+.payDaySaleSection > div:nth-child(2) > h4 {
+  font-family: Poppins;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 120px;
+  color: #000000;
+  margin: 0;
+}
+
+.payDaySaleSection > div:nth-child(2) > p {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 36.0402px;
+  line-height: 52px;
+  letter-spacing: -0.02em;
+  color: #231300;
+}
+
+.payDaySaleSection > div:nth-child(2) > h4 > span:nth-child(1) {
+  transform: rotate(-2deg);
+  display: block;
+  background: #ffffff;
+  width: 80%;
+}
+
+.payday {
+  transform: rotate(2deg);
+  display: block;
 }
